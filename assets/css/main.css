@@ -218,36 +218,41 @@ input, select, textarea {
 
 /* gif */
 .gif {
-	height: auto;
-	max-width: 570px;
+	max-width: 100%;
+	min-height: 304px;
 }
 /* Container */
 
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1140px;
+		/* width: 1140px; */
+		/* width: 1300px; */
+		/* width: 1083px; */
+		width: 1298px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 960px;
+				/* width: 960px; */
+				/* width: 1200px; */
+				width: 1000px;
 			}
 			.gif {
-				height: auto;
-				max-width: 480px;
+				max-width: 100%;
 			}
 		}
 
 		@media screen and (max-width: 1080px) {
 
 			.container {
-				width: 95%;
+				/* width: 95%; */
+				/* width: 105%; */
+				width: 90.3%;
 			}
 			.gif {
-				height: auto;
-				max-width: 503px;
+				max-width: 100%;
 			}
 		}
 
@@ -1230,7 +1235,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1853,9 +1857,10 @@ input, select, textarea {
 
 		.box.style1 {
 			/* background: #fff; */
-			padding: 3em;
 			background: transparent;
-			color: #fff
+			/* padding: 3em 0; */
+			color: #fff;
+			min-height: 365px;
 		}
 
 			.box.style1 .image {
@@ -1889,7 +1894,8 @@ input, select, textarea {
 
 			.box.style1.right .inner {
 				margin-left: 50%;
-				padding-left: 3em;
+				/* padding-left: 3em; */
+				padding-left: 1em;
 			}
 
 			.box.style1.left .image {
@@ -1902,7 +1908,8 @@ input, select, textarea {
 
 			.box.style1.left .inner {
 				margin-right: 50%;
-				padding-right: 3em;
+				/* padding-right: 3em; */
+				padding-right: 1em;
 			}
 
 		.box.style2 {
@@ -2448,8 +2455,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 		.gif {
-			max-width: 685px;
-			height: auto;
+			max-width: 100%;
 		}
 		/* Basic */
 
