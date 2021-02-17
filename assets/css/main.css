@@ -3095,7 +3095,8 @@ input, select, textarea {
 
 				.spotlight .image img {
 					/* width: 12em; */
-					width: 24em;
+					/* width: 24em; */
+					width: 22em;
 				}
 
 		}
