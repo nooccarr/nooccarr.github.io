@@ -2490,12 +2490,10 @@ input, select, textarea {
 	}
 
 	dl dt {
-		/* display: inline-block; */
 		color: #ffffff;
 	}
 
 	dl dd {
-		/* display: inline-block; */
 		color: #fff;
 	}
 
@@ -3041,7 +3039,8 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				/* border-radius: 100%; */
-				width: 24em;
+				/* width: 24em; */
+				width: 26em;
 			}
 
 
@@ -3096,7 +3095,7 @@ input, select, textarea {
 
 				.spotlight .image img {
 					/* width: 12em; */
-					width: 24em;
+					max-width: 22em;
 				}
 
 		}
